@@ -64,6 +64,11 @@ function normalizeOptions(code, opts, tokens): Format {
       base: 0
     },
     flowCommaSeparator: opts.flowCommaSeparator,
+    jsescOption: {
+      quotes: "double",
+      wrap: true,
+      ...opts.jsescOption,
+    }
   };
 
   if (format.minified) {

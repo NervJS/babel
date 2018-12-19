@@ -141,10 +141,7 @@ export function StringLiteral(node: Object, parent: Object) {
   }
 
   // ensure the output is ASCII-safe
-  const opts = {
-    quotes: t.isJSX(parent) ? "double" : this.format.quotes,
-    wrap: true
-  };
+  const opts = this.format.jsescOption;
   if (this.format.jsonCompatibleStrings) {
     opts.json = true;
   }
