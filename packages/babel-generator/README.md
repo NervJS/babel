@@ -1,6 +1,9 @@
 # babel-generator
 
 > Turns an AST into code.
+> Due to the Babel@6 version is not longer maintained, this package mainly fix two two things:
+> 1. JSX comments generation.
+> 2. Update `jsesc` dependency and apply `jsesc` option.
 
 ## Install
 

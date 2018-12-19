@@ -1,8 +1,8 @@
 {
-  "name": "babel-generator",
+  "name": "better-babel-generator",
   "version": "6.26.1",
   "description": "Turns an AST into code.",
-  "author": "Sebastian McKenzie <sebmck@gmail.com>",
+  "author": "yuche <i@yuche.me>",
   "homepage": "https://babeljs.io/",
   "license": "MIT",
   "repository": "https://github.com/babel/babel/tree/master/packages/babel-generator",
